@@ -1,0 +1,23 @@
+  [1m[35m (154.8ms)[0m  [1m[35mCREATE DATABASE "calendar_react_development" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2023-01-11 16:34:34 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 832)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 7131)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-11 16:34:35 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
+Started GET "/" for ::1 at 2023-01-11 16:34:36 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 452)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1217)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-11 16:34:38 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
