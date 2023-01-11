@@ -164,3 +164,65 @@ Started GET "/serviceworker.js" for ::1 at 2023-01-12 00:19:37 +0200
   
 ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
   
+Started GET "/tasks" for ::1 at 2023-01-12 01:43:58 +0200
+Processing by TasksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 2790)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-12 01:43:59 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
+Started GET "/serviceworker.js" for ::1 at 2023-01-12 01:44:29 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
+Started GET "/" for ::1 at 2023-01-12 01:48:36 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 518)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: f8667eb7381839d2fc56
+Version: webpack 4.46.0
+Time: 9680ms
+Built at: 01/12/2023 1:48:47 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-398f150af43f6c54d523.js   5.06 MiB  application  [emitted] [immutable]  application
+js/application-398f150af43f6c54d523.js.map    5.4 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-398f150af43f6c54d523.js js/application-398f150af43f6c54d523.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 1020 bytes {application} [built]
+[./app/javascript/src/App.jsx] 3.65 KiB {application} [optional] [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 108 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 10813.4ms | Allocations: 4699)
+Completed 200 OK in 10820ms (Views: 10817.1ms | ActiveRecord: 0.0ms | Allocations: 9999)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-12 01:48:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-12 01:49:19 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
