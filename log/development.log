@@ -21,3 +21,29 @@ Started GET "/serviceworker.js" for ::1 at 2023-01-11 16:34:38 +0200
   
 ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
   
+Started GET "/" for ::1 at 2023-01-11 19:33:38 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 728)
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 5869)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-11 19:33:39 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
+Started GET "/" for ::1 at 2023-01-11 19:33:39 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 490)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1526)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-11 19:33:41 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
+Started GET "/serviceworker.js" for ::1 at 2023-01-11 19:34:10 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/serviceworker.js"):
+  
