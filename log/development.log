@@ -409,3 +409,1133 @@ Processing by HomeController#index as JS
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 378)
 
 
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 01:59:51 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 2.9ms | Allocations: 521)
+Completed 200 OK in 47ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 5974)
+
+
+Started GET "/" for ::1 at 2023-01-13 01:59:59 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2710)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3662)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:00:00 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 560)
+
+
+Started GET "/" for ::1 at 2023-01-13 02:00:03 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2165)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2441)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:00:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:00:13 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2146)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2418)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:00:13 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 49ms (Views: 27.0ms | ActiveRecord: 17.5ms | Allocations: 19652)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:00:15 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:00:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:01:07 +0200
+Processing by HomeController#index as */*
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2155)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:06:08 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 374)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:07:54 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2155)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 2424)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:07:55 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 20.8ms | Allocations: 3909)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:07:56 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:09:46 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2141)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2413)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:09:46 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.6ms | Allocations: 872)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:09:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:09:58 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2147)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2420)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:09:58 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.3ms | Allocations: 871)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:10:01 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:10:19 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 0f8b0bcf4deeb1f44447
+Version: webpack 4.46.0
+Time: 7571ms
+Built at: 01/13/2023 2:10:28 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-a1e0efcf80df8c973a64.js   5.76 MiB  application  [emitted] [immutable]  application
+js/application-a1e0efcf80df8c973a64.js.map   5.84 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-a1e0efcf80df8c973a64.js js/application-a1e0efcf80df8c973a64.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 1.15 KiB {application} [built]
+[./app/javascript/src/App.jsx] 4.15 KiB {application} [optional] [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/apis/tasks.js] 215 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 451 hidden modules
+
+WARNING in ./app/javascript/src/components/Tasks/Table/TableRow.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/serhii/calendar-react/app/javascript/src/components/Tasks/Table/TableRow.jsx: Expected corresponding JSX closing tag for <td>. (9:113)
+
+   7 |       {data.map(rowData => (
+   8 |         <tr key={rowData.id}>
+>  9 |           <td className="block w-64 px-6 py-4 text-sm font-medium leading-8 text-bb-purple capitalize truncate"> </tr>
+     |                                                                                                                  ^
+  10 |           <td
+  11 |             className="block w-64 px-6 py-4 text-sm font-medium leading-8 text-bb-purple capitalize truncate"
+  12 |           >
+    at instantiate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:67:32)
+    at constructor (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:364:12)
+    at JSXParserMixin.raise (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:3363:19)
+    at JSXParserMixin.jsxParseElementAt (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7192:16)
+    at JSXParserMixin.jsxParseElementAt (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7160:32)
+    at JSXParserMixin.jsxParseElement (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7218:17)
+    at JSXParserMixin.parseExprAtom (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7231:19)
+    at JSXParserMixin.parseExprSubscripts (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11182:23)
+    at JSXParserMixin.parseUpdate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11164:21)
+    at JSXParserMixin.parseMaybeUnary (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11138:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10967:61)
+    at JSXParserMixin.parseExprOps (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10973:23)
+    at JSXParserMixin.parseMaybeConditional (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10948:23)
+    at JSXParserMixin.parseMaybeAssign (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10906:21)
+    at /home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10874:39
+    at JSXParserMixin.allowInAnd (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:12651:12)
+    at JSXParserMixin.parseMaybeAssignAllowIn (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10874:17)
+    at JSXParserMixin.parseParenAndDistinguishExpression (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11828:28)
+    at JSXParserMixin.parseExprAtom (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11457:23)
+    at JSXParserMixin.parseExprAtom (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7236:20)
+    at JSXParserMixin.parseExprSubscripts (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11182:23)
+    at JSXParserMixin.parseUpdate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11164:21)
+    at JSXParserMixin.parseMaybeUnary (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11138:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10967:61)
+    at JSXParserMixin.parseExprOps (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10973:23)
+    at JSXParserMixin.parseMaybeConditional (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10948:23)
+    at JSXParserMixin.parseMaybeAssign (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10906:21)
+    at JSXParserMixin.parseFunctionBody (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:12290:24)
+    at JSXParserMixin.parseArrowExpression (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:12271:10)
+    at JSXParserMixin.parseExprAtom (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11575:25)
+    at JSXParserMixin.parseExprAtom (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:7236:20)
+    at JSXParserMixin.parseExprSubscripts (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11182:23)
+    at JSXParserMixin.parseUpdate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11164:21)
+    at JSXParserMixin.parseMaybeUnary (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11138:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10967:61)
+    at JSXParserMixin.parseExprOps (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10973:23)
+    at JSXParserMixin.parseMaybeConditional (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10948:23)
+    at JSXParserMixin.parseMaybeAssign (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10906:21)
+    at /home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10874:39
+    at JSXParserMixin.allowInAnd (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:12651:12)
+    at JSXParserMixin.parseMaybeAssignAllowIn (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10874:17)
+    at JSXParserMixin.parseExprListItem (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:12391:18)
+    at JSXParserMixin.parseCallExpressionArguments (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11378:22)
+    at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11290:29)
+    at JSXParserMixin.parseSubscript (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11221:19)
+    at JSXParserMixin.parseSubscripts (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11195:19)
+    at JSXParserMixin.parseExprSubscripts (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11186:17)
+    at JSXParserMixin.parseUpdate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11164:21)
+    at JSXParserMixin.parseMaybeUnary (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:11138:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/serhii/calendar-react/node_modules/@babel/parser/lib/index.js:10967:61)
+ @ ./app/javascript/src sync ^\.\/.*$ ./components/Tasks/Table/TableRow.jsx
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 9230.6ms | Allocations: 3700)
+Completed 200 OK in 9232ms (Views: 9231.7ms | ActiveRecord: 0.0ms | Allocations: 4391)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:10:31 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:11:38 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:12:56 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 807)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1498)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:12:57 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 26ms (Views: 9.6ms | ActiveRecord: 12.2ms | Allocations: 4632)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:12:59 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:13:36 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 763)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1035)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:13:37 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.4ms | Allocations: 872)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:13:39 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:16:18 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 759)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1032)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:16:18 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.3ms | Allocations: 882)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:16:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:17:08 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:17:53 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 809)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1500)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:17:54 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 10.7ms | ActiveRecord: 11.2ms | Allocations: 4292)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:17:56 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:20:00 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 793)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1484)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:20:01 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 43ms (Views: 17.7ms | ActiveRecord: 17.2ms | Allocations: 4471)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:20:03 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:20:04 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 764)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1036)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:20:04 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.4ms | Allocations: 872)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:20:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:22:05 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 805)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:22:06 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 9.9ms | ActiveRecord: 11.4ms | Allocations: 4427)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:22:08 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:22:09 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 764)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1036)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:22:09 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.4ms | Allocations: 871)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:22:12 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:22:38 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:23:19 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 805)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1496)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:23:19 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 6.6ms | ActiveRecord: 8.7ms | Allocations: 4427)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:23:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:23:22 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 767)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1039)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:23:23 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 2.1ms | Allocations: 871)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:23:25 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:23:47 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 815)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1506)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:23:48 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 6.6ms | ActiveRecord: 9.8ms | Allocations: 4273)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:23:50 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:24:32 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 815)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1506)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:24:32 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 10.5ms | ActiveRecord: 7.8ms | Allocations: 4412)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:24:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:24:36 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 773)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1045)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:24:37 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.4ms | Allocations: 872)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:24:40 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:25:38 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:27:20 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1494)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:27:20 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 6.5ms | Allocations: 4273)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:27:22 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:27:52 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:28:33 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 813)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1504)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:28:34 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 6.3ms | ActiveRecord: 9.0ms | Allocations: 4273)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:28:36 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:29:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:29:14 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 801)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1492)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:29:15 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 5.6ms | ActiveRecord: 8.0ms | Allocations: 4273)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:29:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 15ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:29:17 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 769)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1042)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:29:18 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.8ms | Allocations: 871)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:29:19 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:29:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:36:27 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 812)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 1502)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:36:30 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 375)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:36:33 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 763)
+Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 1032)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:36:35 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:37:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 374)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:37:15 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 1491)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:37:16 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 15.1ms | Allocations: 7085)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:37:18 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:37:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:38:32 +0200
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.2ms | Allocations: 873)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:39:03 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:50:43 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 803)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 1491)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:50:43 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 36.7ms | ActiveRecord: 16.1ms | Allocations: 6974)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:50:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:50:49 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 759)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1031)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 02:50:49 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.9ms | Allocations: 871)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:50:51 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:51:20 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 02:51:44 +0200
+Processing by HomeController#index as */*
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 779)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1059)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 02:56:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 03:02:15 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.8ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 03:07:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 03:13:15 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 03:18:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 374)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 03:24:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 374)
+
+
+Started GET "/" for ::1 at 2023-01-13 11:19:37 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 521)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 7a5de8a98c18573e945c
+Version: webpack 4.46.0
+Time: 7342ms
+Built at: 01/13/2023 11:19:46 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-878a7c08c8ef4ad9d7ec.js   5.75 MiB  application  [emitted] [immutable]  application
+js/application-878a7c08c8ef4ad9d7ec.js.map   5.84 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-878a7c08c8ef4ad9d7ec.js js/application-878a7c08c8ef4ad9d7ec.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 1.15 KiB {application} [built]
+[./app/javascript/src/App.jsx] 4.15 KiB {application} [optional] [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/apis/tasks.js] 215 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 451 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8797.2ms | Allocations: 4699)
+Completed 200 OK in 8805ms (Views: 8801.7ms | ActiveRecord: 0.0ms | Allocations: 9997)
+
+
+Started GET "/" for ::1 at 2023-01-13 11:19:46 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2062)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 11:19:48 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 11:19:57 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2157)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2433)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 11:19:57 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (7.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 17.8ms | ActiveRecord: 21.6ms | Allocations: 19666)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 11:19:59 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 79)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 11:20:28 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/" for ::1 at 2023-01-13 14:16:47 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 521)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3086)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 8384)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 14:16:48 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 79)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/" for ::1 at 2023-01-13 14:17:00 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2155)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2431)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 14:17:02 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-13 14:17:09 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2143)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2415)
+
+
+Started GET "/tasks" for ::1 at 2023-01-13 14:17:09 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 44ms (Views: 16.5ms | ActiveRecord: 22.2ms | Allocations: 19650)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 14:17:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-13 14:17:40 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
