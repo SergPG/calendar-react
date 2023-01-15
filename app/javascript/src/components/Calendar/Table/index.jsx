@@ -4,7 +4,13 @@ import TableNavigate from "./TableNavigate";
 import TableDaysWeek from "./TableDaysWeek";
 import TableDatesMonth from "./TableDatesMonth";
 
-const Table = ({blankDays, daysInMonth, onIncrementClick, onDecrementClick, currentMonth, currentYear }) => {
+const Table = ({ blankDays,
+                 daysInMonth,
+                 onIncrementClick,
+                 onDecrementClick,
+                 currentMonth,
+                 currentYear,
+                 data }) => {
 
   return (
     <div className="w-full h-screen overflow-x-hidden border-t flex flex-col">
@@ -25,7 +31,7 @@ const Table = ({blankDays, daysInMonth, onIncrementClick, onDecrementClick, curr
                      />
                   <div className="-mx-1 -mb-1">
                     <TableDaysWeek />
-                    <TableDatesMonth blankDays={blankDays} daysInMonth={daysInMonth} />
+                    <TableDatesMonth blankDays={blankDays} daysInMonth={daysInMonth} data={data} />
                   </div>
                 </div>
               </div>

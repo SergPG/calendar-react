@@ -2,6 +2,14 @@ import axios from "axios";
 
 const list = () => axios.get("/events");
 
-const eventsApi = { list };
+const create = payload =>
+  axios.post("/events", {
+  event: payload
+});
+
+const eventsApi = {
+  list,
+  create
+};
 
 export default eventsApi;

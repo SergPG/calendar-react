@@ -8,6 +8,8 @@ import Dashboard from "components/Dashboard";
 import PageLoader from "components/PageLoader";
 import Calendar from "./components/Calendar";
 
+import CreateEvent from "components/Calendar/Create";
+
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -29,6 +31,8 @@ const App = () => {
         <Route exact path="/about" render={() => <div>About</div>} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/calendar" component={Calendar} />
+        <Route exact path="/events/create" component={CreateEvent} />
+
       </Switch>
     </Router>
   );

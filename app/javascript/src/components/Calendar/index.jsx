@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import { isNil, isEmpty, either } from "ramda";
 
 import Container from "components/Container";
 import Table from "components/Calendar/Table";
+import PageLoader from "components/PageLoader";
+import eventsApi from "apis/event";
 
 const Calendar = () => {
 
@@ -18,6 +21,22 @@ const Calendar = () => {
 
   const [blankDays, setBlankDays] = useState([] );
   const [daysInMonth, setDaysInMonth] = useState([]);
+
+  const [events, setEvents] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchEvents = async () => {
+    try {
+      const {
+        data: { events },
+      } = await eventsApi.list();
+      setEvents(events);
+      setLoading(false);
+    } catch (error) {
+      logger.error(error);
+      setLoading(false);
+    }
+  };
 
   // setInterval(() => {
   //   newDate.current = new Date();
@@ -57,15 +76,34 @@ const Calendar = () => {
     setDaysInMonth(daysArray);
   }
 
-  // const nowTime = `${today} : ${currentMonth} : ${currentYear}   = ${blankDays}+ ${daysInMonth}`;
-
   useEffect(() => {
+      fetchEvents();
       getNoOfDays();
   },[]);
 
   useEffect(() => {
+    fetchEvents();
     getNoOfDays();
   },[currentMonth]);
+
+
+  if (loading) {
+    return (
+      <div className="w-screen h-screen">
+        <PageLoader />
+      </div>
+    );
+  }
+
+  if (either(isNil, isEmpty)(events)) {
+    return (
+      <Container>
+        <h1 className="text-xl leading-5 text-center">
+          You have no events assigned 😔
+        </h1>
+      </Container>
+    );
+  }
 
 
   return (
@@ -76,6 +114,7 @@ const Calendar = () => {
               onDecrementClick={decrementMonth}
               currentMonth={nameMonth}
               currentYear={currentYear}
+              data={events}
       />
     </Container>
   );
