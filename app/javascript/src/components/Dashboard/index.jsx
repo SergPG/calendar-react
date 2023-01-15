@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { isNil, isEmpty, either } from "ramda";
 
-import Container from "components/Container";
+import ContainerOLd from "components/ContainerOLd";
 import Table from "components/Tasks/Table";
 import PageLoader from "components/PageLoader";
 import tasksApi from "apis/tasks";
@@ -37,18 +37,18 @@ const Dashboard = () => {
 
   if (either(isNil, isEmpty)(tasks)) {
     return (
-      <Container>
+      <ContainerOLd>
         <h1 className="text-xl leading-5 text-center">
           You have no tasks assigned 😔
         </h1>
-      </Container>
+      </ContainerOLd>
     );
   }
 
   return (
-    <Container>
+    <ContainerOLd>
       <Table data={tasks} />
-    </Container>
+    </ContainerOLd>
   );
 };
 

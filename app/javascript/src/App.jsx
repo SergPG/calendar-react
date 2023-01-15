@@ -6,6 +6,7 @@ import { initializeLogger } from "common/logger";
 
 import Dashboard from "components/Dashboard";
 import PageLoader from "components/PageLoader";
+import Calendar from "./components/Calendar";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/" render={() => <div>Home</div>} />
         <Route exact path="/about" render={() => <div>About</div>} />
         <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/calendar" component={Calendar} />
       </Switch>
     </Router>
   );

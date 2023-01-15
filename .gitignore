@@ -9,7 +9,9 @@
 
 # Ignore all logfiles
 /log/*
-/tmp
+/tmp*
+tmp*
+tmp/cache/
 /db/backups
 /public/uploads
 *.DS_Store
