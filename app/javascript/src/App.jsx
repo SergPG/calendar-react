@@ -10,6 +10,8 @@ import Calendar from "./components/Calendar";
 
 import CreateEvent from "components/Calendar/Create";
 
+import Signup from "components/Authentication/Signup";
+
 const App = () => {
   const [loading, setLoading] = useState(true);
 
@@ -32,6 +34,7 @@ const App = () => {
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/calendar" component={Calendar} />
         <Route exact path="/events/create" component={CreateEvent} />
+        <Route exact path="/signup" component={Signup} />
 
       </Switch>
     </Router>

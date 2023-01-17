@@ -2,17 +2,23 @@ Rails.application.routes.draw do
   resources :tasks, only: :index
   resources :events, only:  %i[index create]
 
+  # devise_for :users,
+  #            path: '',
+  #            path_name: {
+  #              sing_in: 'login',
+  #              sing_out: 'logout',
+  #              registration: 'signup'
+  # },
+  #            controllers: {
+  #   sessions: 'users/sessions',
+  #   registrations: 'users/registrations'
+  # }
+
   devise_for :users,
-             path: '',
-             path_name: {
-               sing_in: 'login',
-               sing_out: 'logout',
-               registration: 'signup'
-  },
              controllers: {
-    sessions: 'users/sessions',
-    registrations: 'users/registrations'
-  }
+               sessions: 'users/sessions',
+               registrations: 'users/registrations'
+             }
 
 
   root "home#index"
