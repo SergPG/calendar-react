@@ -15695,3 +15695,173 @@ Processing by HomeController#index as JS
 Completed 200 OK in 1ms (Views: 0.8ms | Allocations: 383)
 
 
+Started GET "/" for ::1 at 2023-01-18 00:49:55 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 519)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 997f2a3e92507a24cbce
+Version: webpack 4.46.0
+Time: 6799ms
+Built at: 01/18/2023 12:50:03 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-fd041bbb56a75d820193.js   5.85 MiB  application  [emitted] [immutable]  application
+js/application-fd041bbb56a75d820193.js.map   5.87 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-fd041bbb56a75d820193.js js/application-fd041bbb56a75d820193.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 2.41 KiB {application} [built]
+[./app/javascript/src/App.jsx] 4.97 KiB {application} [optional] [built]
+[./app/javascript/src/apis/auth.js] 253 bytes {application} [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/apis/event.js] 337 bytes {application} [built]
+[./app/javascript/src/apis/tasks.js] 215 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 464 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7971.2ms | Allocations: 5012)
+Completed 200 OK in 7977ms (Views: 7974.2ms | ActiveRecord: 0.0ms | Allocations: 10356)
+
+
+Started GET "/" for ::1 at 2023-01-18 00:50:03 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2205)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2523)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 00:50:06 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 00:50:35 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-18 01:21:13 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3221)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 8566)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:21:15 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 79)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:21:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-18 01:34:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3230)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8574)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:34:48 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 79)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:35:18 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-18 01:42:02 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 4036)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 9380)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:42:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:42:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-18 01:44:19 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2266)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2541)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:44:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-18 01:44:50 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
