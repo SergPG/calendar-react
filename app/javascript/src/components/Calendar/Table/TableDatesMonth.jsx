@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
-
-
-const  TableDatesMonth = ({blankDays, daysInMonth, data}) => {
+const  TableDatesMonth = ({ blankDays, daysInMonth, currentMonth, currentYear, data }) => {
 
   return (
     <div className="flex flex-wrap border-t border-l">
@@ -31,7 +28,8 @@ const  TableDatesMonth = ({blankDays, daysInMonth, data}) => {
                 style={{ height: 80 }} >
 
                 {
-                  data.map(eventData => (
+                  data.filter(e => new Date(e.start_at).toDateString() === new Date(currentYear, currentMonth, dayInMonth).toDateString())
+                    .map(eventData => (
                   <div
                     key={ eventData.id }
                     className="px-2 py-1 rounded-lg mt-1 overflow-hidden border
@@ -56,5 +54,4 @@ TableDatesMonth.propTypes = {
   blankDays: PropTypes.array.isRequired,
   daysInMonth: PropTypes.array.isRequired,
 };
-
 export default TableDatesMonth

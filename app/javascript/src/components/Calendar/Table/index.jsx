@@ -8,6 +8,7 @@ const Table = ({ blankDays,
                  daysInMonth,
                  onIncrementClick,
                  onDecrementClick,
+                 nameMonth,
                  currentMonth,
                  currentYear,
                  data }) => {
@@ -26,12 +27,17 @@ const Table = ({ blankDays,
                      <TableNavigate
                        onIncrementClick={onIncrementClick}
                        onDecrementClick={onDecrementClick}
-                       currentMonth={currentMonth}
+                       nameMonth={nameMonth}
                        currentYear={currentYear}
                      />
                   <div className="-mx-1 -mb-1">
                     <TableDaysWeek />
-                    <TableDatesMonth blankDays={blankDays} daysInMonth={daysInMonth} data={data} />
+                    <TableDatesMonth
+                      blankDays={blankDays}
+                      daysInMonth={daysInMonth}
+                      currentMonth={currentMonth}
+                      currentYear={currentYear}
+                      data={data} />
                   </div>
                 </div>
               </div>

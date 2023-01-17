@@ -12609,3 +12609,2617 @@ Processing by HomeController#index as JS
 Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 798)
 
 
+Started GET "/" for ::1 at 2023-01-16 09:52:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1709)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7022)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:52:42 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/" for ::1 at 2023-01-16 09:52:43 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 768)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1044)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:52:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-16 09:52:55 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 767)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 1039)
+
+
+Started GET "/tasks" for ::1 at 2023-01-16 09:52:55 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (7.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 4.2ms | ActiveRecord: 7.8ms | Allocations: 2489)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:52:57 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+Started GET "/tasks" for ::1 at 2023-01-16 09:53:02 +0200
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 1.0ms | Allocations: 750)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 09:53:13 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 755)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1027)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:53:14 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 09:53:14 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 755)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1027)
+
+
+Started GET "/events" for ::1 at 2023-01-16 09:53:14 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 35ms (Views: 18.0ms | ActiveRecord: 15.2ms | Allocations: 17270)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:53:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 09:53:46 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 10:38:21 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 799)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 1488)
+
+
+Started GET "/events" for ::1 at 2023-01-16 10:38:21 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 20.6ms | Allocations: 6111)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 10:38:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 10:38:46 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 799)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1491)
+
+
+Started GET "/events" for ::1 at 2023-01-16 10:38:46 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 6.3ms | ActiveRecord: 17.0ms | Allocations: 3384)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 10:38:48 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 10:39:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/events" for ::1 at 2023-01-16 10:41:30 +0200
+Processing by EventsController#index as JSON
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.1ms | Allocations: 958)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 10:42:01 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/events" for ::1 at 2023-01-16 10:42:49 +0200
+Processing by EventsController#index as JSON
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.3ms | Allocations: 958)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 10:43:20 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/events" for ::1 at 2023-01-16 11:05:00 +0200
+Processing by EventsController#index as JSON
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 16.9ms | Allocations: 3887)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 11:05:32 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 377)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8711359686458627625)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20230116105521)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (24.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230116105521"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(8711359686458627625)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:18:21 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 521)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6065)
+
+
+Started GET "/" for ::1 at 2023-01-16 13:22:01 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 199)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: 56b05658b9fd5e3dae0f
+Version: webpack 4.46.0
+Time: 7162ms
+Built at: 01/16/2023 1:22:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-64a420535e5ce4631f6d.js   5.83 MiB  application  [emitted] [immutable]  application
+js/application-64a420535e5ce4631f6d.js.map   5.86 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-64a420535e5ce4631f6d.js js/application-64a420535e5ce4631f6d.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 2.21 KiB {application} [built]
+[./app/javascript/src/App.jsx] 4.7 KiB {application} [optional] [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/apis/event.js] 337 bytes {application} [built]
+[./app/javascript/src/apis/tasks.js] 215 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 462 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 8330.5ms | Allocations: 4779)
+Completed 200 OK in 8332ms (Views: 8332.0ms | ActiveRecord: 0.0ms | Allocations: 5752)
+
+
+Started GET "/" for ::1 at 2023-01-16 13:22:10 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2298)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2574)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:22:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 601)
+
+
+Started GET "/logout" for ::1 at 2023-01-16 13:22:33 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"logout"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 2311)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms | Allocations: 2586)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:22:36 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 392)
+
+
+Started GET "/login" for ::1 at 2023-01-16 13:22:52 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"login"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2302)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2577)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:22:54 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/login" for ::1 at 2023-01-16 13:22:55 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"login"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2296)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2575)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:22:57 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-16 13:23:04 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2310)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2585)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:23:06 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:23:35 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-16 13:26:11 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 939)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 19.8ms | Allocations: 9699)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 11700)
+Completed 200 OK in 150ms (Views: 25.9ms | ActiveRecord: 23.9ms | Allocations: 34290)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:26:13 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:26:43 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-01-16 13:26:46 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "m.palewski@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 9ms (ActiveRecord: 1.9ms | Allocations: 3865)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3230)
+Completed 200 OK in 217ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 5268)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:26:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-01-16 13:26:52 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 254)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 252)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4380)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 5708)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:26:54 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:27:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started POST "/users" for ::1 at 2023-01-16 13:27:51 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"serhiipopov.ua@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "serhiipopov.ua@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "serhiipopov.ua@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2023-01-16 11:27:52.117115"], ["updated_at", "2023-01-16 11:27:52.117115"]]
+  [1m[36mTRANSACTION (5.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 239ms (ActiveRecord: 8.8ms | Allocations: 10714)
+
+
+Started GET "/" for ::1 at 2023-01-16 13:27:52 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2326)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2601)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:27:54 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:28:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/dashboard" for ::1 at 2023-01-16 13:37:08 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 519)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1831)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 7177)
+
+
+Started GET "/tasks" for ::1 at 2023-01-16 13:37:08 +0200
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks"[0m
+  ↳ app/controllers/tasks_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 4.0ms | ActiveRecord: 1.4ms | Allocations: 2280)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:37:10 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 13:37:15 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 790)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1069)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:37:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 13:37:17 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 793)
+Completed 200 OK in 28ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 1068)
+
+
+Started GET "/events" for ::1 at 2023-01-16 13:37:17 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (4.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 32ms (Views: 16.8ms | ActiveRecord: 14.6ms | Allocations: 17240)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:37:19 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 13:37:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+  [1m[36mEvent Delete All (6.1ms)[0m  [1m[31mDELETE FROM "events"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8711359686458627625)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUserRefToEvents (20230116114903)
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "events" ADD "user_id" bigint NOT NULL[0m
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE INDEX "index_events_on_user_id" ON "events" ("user_id")[0m
+  [1m[35m (6.5ms)[0m  [1m[35mALTER TABLE "events" ADD CONSTRAINT "fk_rails_0cb5590091"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230116114903"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(8711359686458627625)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mEvent Load (4.6ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mEvent Load (2.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["user_id", 1], ["LIMIT", 11]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (2.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "start_at", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "First Event"], ["description", nil], ["start_at", "2023-02-21 00:00:00"], ["created_at", "2023-01-16 12:10:32.820782"], ["updated_at", "2023-01-16 12:10:32.820782"], ["user_id", 1]]
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (4.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "start_at", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Next Event"], ["description", nil], ["start_at", "2023-02-06 00:00:00"], ["created_at", "2023-01-16 12:11:19.523058"], ["updated_at", "2023-01-16 12:11:19.523058"], ["user_id", 1]]
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (1.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "start_at", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New Event"], ["description", nil], ["start_at", "2023-02-25 00:00:00"], ["created_at", "2023-01-16 12:12:06.195941"], ["updated_at", "2023-01-16 12:12:06.195941"], ["user_id", 1]]
+  [1m[36mTRANSACTION (5.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2023-01-16 17:05:16 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 519)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3284)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 8630)
+
+
+Started GET "/packs/js/application-7fa03f5f19404b180e57.js" for ::1 at 2023-01-16 17:05:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"packs/js/application-7fa03f5f19404b180e57"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 599)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:05:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-16 17:05:19 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2317)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2596)
+
+
+Started GET "/packs/js/application-7fa03f5f19404b180e57.js" for ::1 at 2023-01-16 17:05:19 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"packs/js/application-7fa03f5f19404b180e57"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:05:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/" for ::1 at 2023-01-16 17:05:27 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 2300)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms | Allocations: 2576)
+
+
+Started GET "/packs/js/application-7fa03f5f19404b180e57.js" for ::1 at 2023-01-16 17:05:27 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"packs/js/application-7fa03f5f19404b180e57"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:05:29 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-16 17:05:53 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 753)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1028)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:05:56 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:06:10 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 771)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1046)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:06:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:06:11 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 757)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1032)
+
+
+Started GET "/events" for ::1 at 2023-01-16 17:06:11 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 29ms (Views: 11.9ms | ActiveRecord: 10.8ms | Allocations: 19800)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:06:13 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:06:42 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  [1m[36mEvent Load (2.0ms)[0m  [1m[34mSELECT "events".* FROM "events" ORDER BY "events"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/calendar" for ::1 at 2023-01-16 17:31:05 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 809)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 1502)
+
+
+Started GET "/events" for ::1 at 2023-01-16 17:31:05 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 21.1ms | Allocations: 7446)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:31:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:31:19 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 765)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1040)
+
+
+Started GET "/events" for ::1 at 2023-01-16 17:31:19 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.3ms | Allocations: 1086)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:31:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:31:50 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:32:03 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 815)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1511)
+
+
+Started GET "/events" for ::1 at 2023-01-16 17:32:03 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 31ms (Views: 10.8ms | ActiveRecord: 16.8ms | Allocations: 4754)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:32:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:32:34 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 813)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1509)
+
+
+Started GET "/events" for ::1 at 2023-01-16 17:32:34 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 7.9ms | ActiveRecord: 12.3ms | Allocations: 4717)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:32:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:32:36 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 17:32:39 +0200
+Processing by HomeController#index as */*
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 755)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1119)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 17:38:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-16 21:49:45 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 519)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1704)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7050)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 21:49:48 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 21:50:01 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 780)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1059)
+
+
+Started GET "/events" for ::1 at 2023-01-16 21:50:01 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (13.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 43ms (Views: 16.3ms | ActiveRecord: 21.7ms | Allocations: 19841)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 21:50:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 392)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 21:53:19 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 808)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1508)
+
+
+Started GET "/events" for ::1 at 2023-01-16 21:53:20 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 11.2ms | ActiveRecord: 13.4ms | Allocations: 4890)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 21:53:22 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 21:54:46 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:00:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:05:46 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 383)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:09:26 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 809)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1502)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:09:26 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (3.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 78ms (Views: 73.8ms | ActiveRecord: 52.8ms | Allocations: 7589)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:09:28 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:11:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:11:45 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:12:58 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 809)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1505)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:12:58 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 6.6ms | ActiveRecord: 12.9ms | Allocations: 4879)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:13:00 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:13:47 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 807)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1503)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:13:48 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 6.2ms | ActiveRecord: 11.0ms | Allocations: 4767)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:16:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:22:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 383)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:24:14 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 799)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 1492)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:24:15 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 62ms (Views: 57.4ms | ActiveRecord: 24.3ms | Allocations: 7624)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:25:35 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 805)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1503)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:25:36 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 7.3ms | ActiveRecord: 13.3ms | Allocations: 4905)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:26:47 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 819)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1515)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:26:48 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 6.8ms | ActiveRecord: 9.5ms | Allocations: 4718)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:27:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:28:11 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 813)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1509)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:28:11 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 24ms (Views: 7.6ms | ActiveRecord: 8.2ms | Allocations: 4717)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:31:41 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 815)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1511)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:31:42 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 6.7ms | ActiveRecord: 10.1ms | Allocations: 4718)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:33:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.8ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 22:38:12 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 801)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1494)
+
+
+Started GET "/events" for ::1 at 2023-01-16 22:38:13 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 75ms (Views: 72.5ms | ActiveRecord: 44.4ms | Allocations: 7411)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:38:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:44:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 809)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:49:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 22:55:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:00:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:06:17 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 385)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:10:50 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 810)
+
+
+Started GET "/" for ::1 at 2023-01-16 23:10:56 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 803)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 1075)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:10:58 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 385)
+
+
+Started GET "/" for ::1 at 2023-01-16 23:10:58 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 769)
+Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1041)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:11:00 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 383)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:11:06 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 773)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 1046)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:11:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 1.1ms | Allocations: 383)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:11:08 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 769)
+Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 1041)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:11:09 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 38ms (Views: 35.6ms | ActiveRecord: 17.3ms | Allocations: 7494)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:11:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:11:40 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:12:07 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 815)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1511)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:12:09 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:12:39 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:17:03 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 817)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1513)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:17:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:17:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:18:30 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 809)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1505)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:18:30 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 6.7ms | ActiveRecord: 13.2ms | Allocations: 4742)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:18:32 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:19:01 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:19:09 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 759)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1034)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:19:09 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.3ms | Allocations: 1075)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:19:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:19:40 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:22:39 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 799)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1495)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:22:40 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 22ms (Views: 9.3ms | ActiveRecord: 10.0ms | Allocations: 4717)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:22:41 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:23:11 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Started GET "/calendar" for ::1 at 2023-01-16 23:27:43 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 797)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1495)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:27:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:27:51 +0200
+Processing by HomeController#index as */*
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 757)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 1121)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:31:26 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 809)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1507)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:31:27 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 8.6ms | ActiveRecord: 7.4ms | Allocations: 4778)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:31:28 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:32:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:32:54 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 801)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1497)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:32:54 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 6.3ms | ActiveRecord: 9.7ms | Allocations: 4806)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:34:09 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 805)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1501)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:34:10 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 9.2ms | ActiveRecord: 6.6ms | Allocations: 4717)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:35:03 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 390)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:37:15 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 807)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1503)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:37:16 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 6.5ms | ActiveRecord: 7.8ms | Allocations: 4717)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:38:14 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:41:08 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 803)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:41:08 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 34ms (Views: 18.4ms | ActiveRecord: 12.7ms | Allocations: 4737)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:41:37 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 817)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1515)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:41:38 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 25ms (Views: 6.6ms | ActiveRecord: 16.1ms | Allocations: 4856)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:41:39 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/calendar" for ::1 at 2023-01-16 23:43:14 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 801)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+Started GET "/events" for ::1 at 2023-01-16 23:43:15 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 6.2ms | ActiveRecord: 6.5ms | Allocations: 4718)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:43:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:49:14 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.7ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-16 23:54:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 1.9ms | Allocations: 383)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:00:14 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | Allocations: 383)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:00:48 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 807)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1500)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:00:48 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 23.3ms | Allocations: 7484)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:01:58 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:01:58 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 5.5ms | ActiveRecord: 9.3ms | Allocations: 4742)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:02:00 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:02:30 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:02:36 +0200
+Processing by HomeController#index as */*
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 765)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1048)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:03:37 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:08:26 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 809)
+Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1502)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:08:26 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 18.9ms | Allocations: 7465)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:08:28 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:08:58 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:12:59 +0200
+Started GET "/calendar" for ::1 at 2023-01-17 00:13:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 519)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 1787)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 7133)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:13:21 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (2.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 112ms (Views: 91.9ms | ActiveRecord: 15.7ms | Allocations: 19808)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:13:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 606)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:13:52 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:14:34 +0200
+Processing by EventsController#index as JSON
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.3ms | Allocations: 1077)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:15:05 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:19:15 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 808)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1509)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:19:16 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 4.9ms | ActiveRecord: 5.2ms | Allocations: 4785)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:19:18 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:19:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:23:25 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 811)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1507)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:23:25 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:4:in `index'
+Completed 200 OK in 19ms (Views: 8.8ms | ActiveRecord: 7.4ms | Allocations: 4717)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:23:27 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:23:56 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:27:14 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1499)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:27:14 +0200
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 2630)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-17 00:27:14 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 939)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4109)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4595)
+Completed 200 OK in 27ms (Views: 10.6ms | ActiveRecord: 5.1ms | Allocations: 22209)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:27:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:27:33 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 783)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1058)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:27:34 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 779)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1054)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:27:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:27:36 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/dashboard" for ::1 at 2023-01-17 00:27:58 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"dashboard"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 777)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1052)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:27:59 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:28:29 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "//users/sign_in" for ::1 at 2023-01-17 00:32:48 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 162)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1358)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1844)
+Completed 200 OK in 15ms (Views: 4.1ms | ActiveRecord: 5.6ms | Allocations: 5550)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:32:50 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 807)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-01-17 00:32:56 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "m.palewski@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 15ms (ActiveRecord: 4.5ms | Allocations: 3726)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1708)
+Completed 200 OK in 222ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 3287)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:32:58 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:33:12 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 803)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1078)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:33:13 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:33:17 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 765)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1040)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:33:17 +0200
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 434)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-17 00:33:17 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1704)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2447)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:33:19 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:33:21 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 803)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1078)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:33:21 +0200
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 367)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-17 00:33:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1704)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2465)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:33:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:33:43 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 787)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1062)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:33:45 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-17 00:34:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1704)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2467)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:34:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/users/sign_up" for ::1 at 2023-01-17 00:34:16 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 254)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 250)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2371)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2865)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 4237)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:34:18 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 388)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-01-17 00:34:21 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "m.palewski@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 8ms (ActiveRecord: 1.7ms | Allocations: 1546)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"m.palewski@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:34:21 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.1ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1247)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1699)
+Completed 200 OK in 225ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 4361)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:34:23 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:34:35 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 769)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1044)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:34:37 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:35:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:35:30 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 604)
+Completed 200 OK in 77069ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 137748)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:36:49 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+Started GET "/" for ::1 at 2023-01-17 00:37:15 +0200
+Completed 500 Internal Server Error in 91113ms (ActiveRecord: 0.0ms | Allocations: 305745)
+
+
+  
+Errno::EIO (Input/output error @ io_writev - <STDOUT>):
+  
+app/controllers/home_controller.rb:4:in `index'
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 18958)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/serhii/calendar-react/public/packs
+[Webpacker] warning package.json: No license field
+
+[Webpacker] Hash: f985bcecefe3b1808f1e
+Version: webpack 4.46.0
+Time: 11957ms
+Built at: 01/17/2023 12:38:42 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f0064f4e92a568ca9715.js   5.83 MiB  application  [emitted] [immutable]  application
+js/application-f0064f4e92a568ca9715.js.map   5.86 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f0064f4e92a568ca9715.js js/application-f0064f4e92a568ca9715.js.map
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/src sync recursive ^\.\/.*$] ./app/javascript/src sync ^\.\/.*$ 2.21 KiB {application} [built]
+[./app/javascript/src/App.jsx] 4.7 KiB {application} [optional] [built]
+[./app/javascript/src/apis/axios.js] 754 bytes {application} [built]
+[./app/javascript/src/apis/event.js] 337 bytes {application} [built]
+[./app/javascript/src/apis/tasks.js] 215 bytes {application} [built]
+[./app/javascript/src/common/logger.js] 329 bytes {application} [built]
+[./app/javascript/stylesheets/application.scss] 664 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js??ref--6-3!./app/javascript/stylesheets/application.scss 2.93 MiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 462 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 13271.1ms | Allocations: 363814)
+Completed 200 OK in 13281ms (Views: 13278.2ms | ActiveRecord: 0.0ms | Allocations: 473446)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:40:29 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 519)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1795)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 7140)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:40:30 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 79)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 605)
+
+
+Started GET "/" for ::1 at 2023-01-17 00:40:32 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 758)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1037)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:40:34 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.4ms | Allocations: 79)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 391)
+
+
+Started GET "/users/sign_in" for ::1 at 2023-01-17 00:40:44 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 939)
+  Rendered /home/serhii/.rvm/gems/ruby-3.0.0@calendar-react/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 6346)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6832)
+Completed 200 OK in 39ms (Views: 12.3ms | ActiveRecord: 9.1ms | Allocations: 25861)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:40:46 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.5ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started POST "/users/sign_in" for ::1 at 2023-01-17 00:41:10 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"serhiipopov.ua@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "serhiipopov.ua@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (2.1ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", "2023-01-16 22:41:11.151017"], ["updated_at", "2023-01-16 22:41:11.151446"], ["id", 1]]
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 254ms (ActiveRecord: 11.7ms | Allocations: 11502)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:41:11 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 9.6ms | ActiveRecord: 5.4ms | Allocations: 18270)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:41:12 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:41:42 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:41:43 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 801)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1080)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:41:44 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:41:44 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 792)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1067)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:41:45 +0200
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 1086)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:41:47 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:42:16 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:42:36 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 838)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1534)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:42:36 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mEvent Load (1.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 67ms (Views: 8.0ms | ActiveRecord: 43.9ms | Allocations: 10628)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:42:38 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:43:07 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 78)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 00:43:31 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 838)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1534)
+
+
+Started GET "/events" for ::1 at 2023-01-17 00:43:32 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:43:33 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 2.3ms | Allocations: 13905)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 76861)
+
+
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:6:in `index'
+  [1m[36mEvent Load (4.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/events_controller.rb:7:in `index'
+Completed 200 OK in 272102ms (Views: 6.5ms | ActiveRecord: 23.7ms | Allocations: 894967)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 00:48:32 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 814)
+
+
+Started GET "/calendar" for ::1 at 2023-01-17 01:04:52 +0200
+Processing by HomeController#index as HTML
+  Parameters: {"path"=>"calendar"}
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 830)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 1523)
+
+
+Started GET "/events" for ::1 at 2023-01-17 01:04:52 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 70ms (Views: 4.7ms | ActiveRecord: 36.1ms | Allocations: 14340)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 01:04:54 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.8ms | Allocations: 78)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started POST "/events" for ::1 at 2023-01-17 01:05:10 +0200
+Processing by EventsController#create as JSON
+  Parameters: {"event"=>{"title"=>"New User"}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:12:in `create'
+  [1m[36mEvent Create (3.4ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "start_at", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New User"], ["description", nil], ["start_at", "2023-04-21 00:00:00"], ["created_at", "2023-01-16 23:05:10.612055"], ["updated_at", "2023-01-16 23:05:10.612055"], ["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:12:in `create'
+Completed 200 OK in 27ms (Views: 0.3ms | ActiveRecord: 9.4ms | Allocations: 8961)
+
+
+Started GET "/events" for ::1 at 2023-01-17 01:05:10 +0200
+Processing by EventsController#index as JSON
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 1.9ms | ActiveRecord: 2.9ms | Allocations: 2501)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 01:05:41 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 01:07:33 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+
+Started POST "/events" for ::1 at 2023-01-17 01:07:41 +0200
+Processing by EventsController#create as JSON
+  Parameters: {"event"=>{"title"=>"Bay a new Car"}}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:12:in `create'
+  [1m[36mEvent Create (1.9ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "start_at", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Bay a new Car"], ["description", nil], ["start_at", "2023-04-02 00:00:00"], ["created_at", "2023-01-16 23:07:41.558851"], ["updated_at", "2023-01-16 23:07:41.558851"], ["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:12:in `create'
+Completed 200 OK in 26ms (Views: 0.6ms | ActiveRecord: 12.2ms | Allocations: 3670)
+
+
+Started GET "/events" for ::1 at 2023-01-17 01:07:41 +0200
+Processing by EventsController#index as JSON
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/controllers/events_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 3.0ms | ActiveRecord: 3.5ms | Allocations: 2629)
+
+
+Started GET "/serviceworker.js" for ::1 at 2023-01-17 01:08:12 +0200
+Processing by HomeController#index as JS
+  Parameters: {"path"=>"serviceworker"}
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 386)
+
+

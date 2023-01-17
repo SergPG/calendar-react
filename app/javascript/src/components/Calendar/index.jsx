@@ -38,13 +38,6 @@ const Calendar = () => {
     }
   };
 
-  // setInterval(() => {
-  //   newDate.current = new Date();
-  //   setToday(newDate.current.getDate());
-  //   setCurrentMonth(newDate.current.getMonth());
-  //   setCurrentYear(newDate.current.getFullYear());
-  // }, 1000);
-
   const incrementMonth = () => {
     newDate.current.setMonth(currentMonth + 1);
     setCurrentMonth(newDate.current.getMonth());
@@ -82,10 +75,8 @@ const Calendar = () => {
   },[]);
 
   useEffect(() => {
-    fetchEvents();
     getNoOfDays();
   },[currentMonth]);
-
 
   if (loading) {
     return (
@@ -105,14 +96,14 @@ const Calendar = () => {
     );
   }
 
-
   return (
     <Container>
       <Table  blankDays={blankDays}
               daysInMonth={daysInMonth}
               onIncrementClick={incrementMonth}
               onDecrementClick={decrementMonth}
-              currentMonth={nameMonth}
+              nameMonth={nameMonth}
+              currentMonth={currentMonth}
               currentYear={currentYear}
               data={events}
       />
